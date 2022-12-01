@@ -10,7 +10,7 @@ const RecipeGallery = (props) => {
 
   async function saveRecipe(item) {
 
-    const URL = 'http://localhost:3500/recipes/saved';
+    const URL = 'https://food-recipe-browser-server.onrender.com/recipes/saved';
     const response = await axios.post(URL, {
       recipe : {
         "id": item.id,
@@ -32,7 +32,7 @@ const RecipeGallery = (props) => {
   }
 
   async function deleteRecipe(recipe) {
-    const URL = `http://localhost:3500/recipes/delete/${recipe.id}`;
+    const URL = `https://food-recipe-browser-server.onrender.com/recipes/delete/${recipe.id}`;
     const response = await axios.delete(URL);
 
     // console.log(response.data);

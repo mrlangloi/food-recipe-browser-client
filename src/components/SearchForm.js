@@ -18,7 +18,7 @@ function SearchForm(props) {
     const URLcuisine = cuisine !== "" ? `${cuisine}` : "any";
 
     const URL = 
-      `http://localhost:3500/recipes/${URLquery}/${URLmeal}/${URLcuisine}`;
+      `https://food-recipe-browser-server.onrender.com/recipes/${URLquery}/${URLmeal}/${URLcuisine}`;
     
     // console.log(URL);
     const response = await axios.get(URL);
