@@ -14,7 +14,7 @@ function SavedRecipes(props) {
         setLoading(true);
 
         async function axiosFetch() {
-          const url = "http://localhost:3500/recipes/saved";
+          const url = "https://food-recipe-browser-server.onrender.com/recipes/saved";
           const response = await axios.get(url);
           // console.log(response.data);
           setSavedRecipes(response.data);
