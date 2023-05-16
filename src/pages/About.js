@@ -11,6 +11,12 @@ function About(props) {
         <p>
           Contact: rcheung1997@gmail.com
         </p>
+        <p>
+          <a href="https://github.com/mrlangloi/food-recipe-browser-client" target="_blank" rel="noopener noreferrer">Front-end Github</a>
+        </p>
+        <p>
+          <a href="https://github.com/mrlangloi/food-recipe-browser-server" target="_blank" rel="noopener noreferrer">Back-end Github</a>
+        </p>
       </div>
       <h5>Sources</h5>
       <div className="about-p-div">
