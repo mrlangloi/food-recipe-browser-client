@@ -34,6 +34,9 @@ function Documentation() {
                 <p>
                     Note: This application will only display a randomized list of recipes up to 20 matches
                 </p>
+                <p>
+                    The backend server may take a while to wake up upon first load
+                </p>
             </div>
         </div>
         
